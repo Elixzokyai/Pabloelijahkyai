@@ -1,0 +1,9 @@
+.thumbnail{
+    width: 200px;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-left: 0px;
+    border-color: blue;
+    display: block;
+    position: relative;
+}

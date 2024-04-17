@@ -1,0 +1,42 @@
+.header{
+    display: flex; flex-direction: row;
+    height: 50px;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 2px;
+    left: 10px;
+    right: 50px;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(235, 233, 233, 0.8);
+    border-bottom-style: solid;
+    
+    
+}
+.left-section{
+    background-color: white;
+    width: 150px;
+    align-content: center;
+    display: grid; grid-template-columns: 40px 50px 1fr;
+    margin-right: 70px;
+    
+   
+}
+.middle-section{
+    display: flex; flex-direction: row;
+    background-color: white;
+    flex: 1;
+    margin-right: 70px;
+    width: 100%;
+    border:  rgb(235, 233, 233, 0.8);
+}
+.right-section{
+    background-color: white;
+    width: 200px;
+    margin-left: -3px;
+}
+.youtube{
+    width: 110px;
+    align-content: center;
+
+}

@@ -1,0 +1,107 @@
+.search{
+       
+    color: rgb(71, 71, 71, 0,7);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-color: rgb(241, 233, 233);
+    line-height: 40px;
+    margin: 1px;
+    border-width: 0px;
+    cursor: pointer;
+    font-size: 20px;
+    border-width: 2px;
+    flex: 1;
+    width: 600px; 
+       
+}
+.search22{
+    border-width: 0px;
+    width: -2px;
+    flex: 1;
+    cursor: pointer;
+    line-height: 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 1px;
+    border-width: 2px;
+    border-color: rgb(241, 233, 233);
+    border-top-color: rgb(211, 209, 209,1);
+    margin-left: -1px;
+
+
+}
+.search:hover{
+    background-color: white;
+
+}
+.video-info-grid{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 40px;
+    width: 100%;
+    margin-top: 50px;
+    background-color: rgb(248, 245, 245,1);
+    padding-left: 120px;
+    
+}
+.video-grid{
+    display: grid; 
+    grid-template-columns: 40px 160px;
+}
+.video-title{
+    
+    color: black;
+    font-weight: bold;
+    
+}
+.views{
+    font-style: normal;
+    line-height: 15px;
+    
+}
+.div-sample{
+    display: grid; grid-template-columns: 150px;
+    width: 200px;
+    
+    
+}
+.position-info{
+    position: relative;
+    
+}
+.video-time{
+    background-color: rgb(46, 45, 45);
+    color: white;
+    z-index: 1;
+    right: -50px;
+    position: absolute;
+    bottom: 10px;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: bold;
+    border-width: 1px;
+    border-width: 1px;
+}
+.DJ-shinki{
+   
+    width: 40px;
+    line-height: 50px;
+    border-radius: 100px;
+}
+.shinki{
+    
+    line-height: 40px;
+    
+}
+
+.DJboat{
+    width: 40px;
+    border-radius: 100px;
+   
+}
+.DP{
+    
+    margin-top: 20px;
+    border-radius: 100%;
+}
